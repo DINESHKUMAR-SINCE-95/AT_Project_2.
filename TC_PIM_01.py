@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 class LoginAutomation:
-    def _init_(self, url, username, password):
+    def __init__(self, url, username, password):
         self.url = url
         self.username = username
         self.password = password
